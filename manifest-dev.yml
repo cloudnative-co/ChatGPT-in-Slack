@@ -25,6 +25,9 @@ oauth_config:
       - chat:write.public
       - chat:write
       - users:read
+      - channels:read
+      - groups:read
+      - im:read
 settings:
   event_subscriptions:
     bot_events:
